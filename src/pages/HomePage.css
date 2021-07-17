@@ -1,32 +1,142 @@
+.bg-image{
+  background-color: rgb(224, 211, 211);
+  margin-top: 500px;
+}
+
+h1{
+  background-color: rgb(49, 48, 48);
+  color: aliceblue;
+  font-family: Arial;
+  font-size: 30px; 
+  width: 800px;
+  height: 250px;
+  padding: 0;
+  opacity: 0.7;
+  
+  
+}
+
+p{
+  margin-top: 50px;
+}
+
+.h1variant{
+ 
+  background-size: cover;
+  background-color: rgb(49, 48, 48);
+  color: aliceblue;
+  font-family: Arial;
+  font-size: 30px; 
+  width: 800px;
+  height: 700px;
+  position: absolute;
+  padding: 0;
+  text-align: center;
+}
+
+.variant{
+  
+  width: auto;
+  height: auto;
+  border-radius: 10px;
+  margin-left: 11px;
+  margin-right: 11px;
+  text-align: center;
+  font-size: 20px;
+  
+  
+}
 
 
-.OnTop {
-    position: relative;
-    opacity: 1;
-    background-color: transparent;
-    background: rgba(204, 122, 0, 0.226);
-    
-    text-align: center;
-    margin-left: 5%;
-    margin-right: 5%;
-    font-size: 20px;
-    font-family: 'Patrick Hand SC', cursive;
 
-    
-  }
 
-  .module {
-    
-    width: 1522px;
-    height: 1500px;
+.container-fluid{
+  opacity: 1;
+  position: relative;
+  
+  padding: 0;
+
+}
+
+h3{
+ 
+  color: black;
+  
+}
+
+.Item img {
+    position: absolute;
+    object-fit:cover;
+    top: 0;
+    left: 0;
+    min-height: 500px;
+
+
+}
+
+.colContainer{
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  margin-right: 11px;
+  margin-left: 11px;
+}
+
+.rowContainer{
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  border-bottom: black;
+  
+  
+ 
+  
+  
+}
+
+.containerHome{  
+  width: 100%;
+  height: 250px;
+  padding: 0;
+  position: relative;
+  align-content: center;
+  border: solid;
+  margin-left: 10px;
+  margin-top: 10px;
+  background-color: rgb(26, 25, 25);
+  opacity: 0.9;
    
-    background-size: cover;
-  }
-  .red {
-    background-image: 
-      linear-gradient(
-        rgba(238, 187, 78, 0.5),
-        rgba(255, 0, 0, 0.5)
-      ),
-      url(real.jpg);
-  }
+  
+}
+
+h5{
+  position: absolute;
+  height: auto;
+  width: 250px;;
+  text-align: center;
+  color: aliceblue;
+  font-family: Arial;
+  font-size: 10px; 
+}
+
+.h7{
+  background-size: cover;
+  background-color: rgb(49, 48, 48);
+  color: aliceblue;
+  font-family: Arial;
+  font-size: 30px; 
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  padding: 0;
+  text-align: center;
+  margin-top: 10px;
+  
+  
+}
+
+
+
+
+
+

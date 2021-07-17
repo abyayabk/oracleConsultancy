@@ -1,0 +1,29 @@
+.details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 10px;
+    margin-bottom: 50px;
+   
+
+   
+    background-color: rgb(49, 48, 48);
+    
+    font-family: Arial;
+    font-size: 30px; 
+    width: 100%;
+    height: 100%;
+   
+    padding: 0;
+    text-align: center;
+    margin-top: 10px;
+  }
+
+
+.details button{
+    margin-top: 10px;
+}
+
+label{
+    color: aliceblue;
+}

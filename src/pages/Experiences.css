@@ -1,0 +1,19 @@
+.flex{
+    display: flex;
+    flex-direction: column;
+}
+
+.buttons{
+    
+    height: 300px;
+  
+    
+    width: 100%;
+    font-family: 'Patrick Hand SC', cursive;
+    font-size: 20px; 
+  }
+
+.card{
+    font-family: 'Patrick Hand SC', cursive;
+    font-size: 20px; 
+  }

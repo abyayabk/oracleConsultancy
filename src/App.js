@@ -8,6 +8,7 @@ import HomePage from './pages/HomePage';
 import Experiences from './pages/Experiences';
 import ContactUs from './pages/ContactUs';
 import Navbar from './Navbar';
+import Footer from './Footer';
 
 function App() {
  
@@ -16,13 +17,18 @@ function App() {
         
         <div className="App">
         <Navbar />
-          <div id="page-body">
+        <div id="page-body">
           <Route path="/" component ={HomePage} exact />
         <Route path="/Experiences" component ={Experiences} /> 
         <Route path="/ContactUS" component ={ContactUs} />  
+        
           </div>
             
         </div>
+
+       <Footer>
+         
+       </Footer>
       </Router>
      
     );

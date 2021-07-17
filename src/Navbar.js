@@ -1,32 +1,41 @@
 import React from 'react' ;
-import HomePage from './pages/HomePage';
 import { Link } from 'react-router-dom';
 import './Navbar.css';
+import image4 from './Logo.jpg';
 
 
     
    
- 
-var fs = "italic";
+
 
 function Navbar()
 {
     return(
-        <div className="Navbar">
+        <>
         <nav>
-        <ul > 
+     <div class="container">
+
+  
+         
+        <ul style={{marginLeft:"40%"}}>
+            
+            
+
             <Link to ="/" className="text">Home</Link>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            
                      
             <Link to ="/Experiences" className="text">Experiences</Link>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            
             
             <Link to ="/ContactUs" className="text">Contact Us</Link>
                 
         </ul>
-         </nav>
-        </div>
-   
+    </div>
+    </nav>
+        
+       
+        
+   </>
     );
 }
 
