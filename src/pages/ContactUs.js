@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+
 import './ContactUs.css';
 import { useState } from "react";
 import axios from "axios";
@@ -13,9 +13,9 @@ function ContactUS() {
     const [email, setEmail] = useState(0);
     const [details, setDetails] = useState(0);
 
-    const displayInfo =() =>{
+    
       console.log( name+" "+ phoneNumber+" "+serviceType+" "+email+" "+details);
-    }
+    
 
     const addCustomer =() => {
       

@@ -34,7 +34,7 @@ const Experiences = (props) => {
           <Card>
             <CardBody className="card">
             Complete end to end BIM service for Residential Building of Ms. Rojina Shrestha, Budhanilkantha (incl., structural, architecture and MEP design)
-            <img style={{'height':"100%", width:"700px"}} src={image1}    />
+            <img style={{'height':"100%", width:"700px"}} src={image1}  alt="img" />
             </CardBody>
           </Card>
         </Collapse>
@@ -45,7 +45,7 @@ const Experiences = (props) => {
           <Card>
             <CardBody>
             	Complete 3D Design of View Point Tower, Nawalpur
-              <img style={{'height':"100%", width:"700px"}} src={image2}    />
+              <img style={{'height':"100%", width:"700px"}} src={image2} alt="img"  />
             </CardBody>
           </Card>
         </Collapse>
@@ -54,7 +54,7 @@ const Experiences = (props) => {
           <Card>
             <CardBody>
             Interior Design and Supply of Furniture for Bhairawa Office, Himstar Electronics
-              <img style={{'height':"100%", width:"700px"}} src={image3}    />
+              <img style={{'height':"100%", width:"700px"}} src={image3} alt="img"    />
             </CardBody>
           </Card>
         </Collapse>
@@ -63,7 +63,7 @@ const Experiences = (props) => {
           <Card>
             <CardBody>
             	Site Survey and Architectural Design of 3-storey Residential Building at Bhardev, Lele Municipality
-              <img style={{'height':"100%", width:"700px"}} src={image4}    />
+              <img style={{'height':"100%", width:"700px"}} src={image4} alt="img"    />
             </CardBody>
           </Card>
         </Collapse>
@@ -72,7 +72,7 @@ const Experiences = (props) => {
           <Card>
             <CardBody>
     	Architectural Design of shopping store for EVOKE, Lazimpat
-              <img style={{'height':"100%", width:"700px"}} src={image5}    />
+              <img style={{'height':"100%", width:"700px"}} src={image5} alt="img"   />
             </CardBody>
           </Card>
         </Collapse>
@@ -81,7 +81,7 @@ const Experiences = (props) => {
           <Card>
             <CardBody>
             Site Survey and Architectural Design of ProMate Body Workshop
-              <img style={{'height':"100%", width:"700px"}} src={image6}    />
+              <img style={{'height':"100%", width:"700px"}} src={image6} alt="img"   />
             </CardBody>
           </Card>
         </Collapse>
@@ -90,7 +90,7 @@ const Experiences = (props) => {
           <Card>
             <CardBody>
             Concept Layout and Interior Design of Residential Building, Kamalpokhari
-              <img style={{'height':"100%", width:"700px"}} src={image7}    />
+              <img style={{'height':"100%", width:"700px"}} src={image7}  alt="img"  />
             </CardBody>
           </Card>
         </Collapse>

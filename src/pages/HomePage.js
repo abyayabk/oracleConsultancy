@@ -1,5 +1,5 @@
 import React from 'react';
-import image2 from './real.jpg';
+
 import image3 from './cad.jpg';
 import image4 from './second.jpg';
 import image5 from './third.jpg';
@@ -22,9 +22,9 @@ function HomePage()
                        </h1>
                          <img style={{'height':"700px", width:"50%"}}  
                          className="d-block w-100"  
-                        src={image3}  /> 
+                        src={image3} alt="img" /> 
                            <Carousel.Caption >  
-                             <h3></h3>  
+                               
                                  </Carousel.Caption>  
                                  </Carousel.Item  >  
                                  <Carousel.Item style={{'height':"700px", width:"100%", marginTop:'10px'}}>
@@ -32,9 +32,9 @@ function HomePage()
                         <br></br><br></br>Our expertise on CAD contact drawings helps us bring <br></br>designs you wanted for your projects.</h1>  
                                  <img style={{'height':"100%", width:"700px"}}  
                                    className="d-block w-100"  
-                                    src={image5}    />  
+                                    src={image5}   alt="img" />  
                                        <Carousel.Caption> 
-                                   <h3></h3>  
+                                  
                                       </Carousel.Caption>  
                                          </Carousel.Item>  
                                          <Carousel.Item style={{'height':"700px", width:"100%", marginTop:'10px'}}>
@@ -42,9 +42,9 @@ function HomePage()
                         <br></br><br></br>Our expertise on CAD contact drawings helps us bring <br></br>designs you wanted for your projects.</h1>  
                                    <img style={{'height':"700px", width:"700px"}}  
                                         className="d-block w-100"  
-                                         src={image4}   />  
+                                         src={image4}  alt="img" />  
                                         <Carousel.Caption>  
-                                          <h3></h3>  
+                                           
                                           </Carousel.Caption>  
                                          </Carousel.Item>  
                                         </Carousel>  
@@ -78,7 +78,7 @@ function HomePage()
                          <p style={{marginTop: '50px'}}>Who we are</p>
                          </h7>
                            <Carousel.Caption >  
-                             <h3></h3>  
+                              
                                  </Carousel.Caption>  
                                  </Carousel.Item>  
                                  <Carousel.Item style={{'height':"200px", width:"100%", marginTop:'10px', marginBottom: '20px'}}>
@@ -87,7 +87,7 @@ function HomePage()
                                  </h7>
                        
                                        <Carousel.Caption> 
-                                   <h3></h3>  
+                                     
                                       </Carousel.Caption>  
                                          </Carousel.Item>  
                                          <Carousel.Item style={{'height':"200px", width:"100%", marginTop:'10px', marginBottom: '20px'}}>
@@ -96,7 +96,7 @@ function HomePage()
                                  </h7>
                         
                                         <Carousel.Caption>  
-                                          <h3></h3>  
+                                            
                                           </Carousel.Caption>  
                                          </Carousel.Item>  
                                         </Carousel>  
