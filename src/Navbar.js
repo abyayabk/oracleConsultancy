@@ -17,7 +17,7 @@ function Navbar()
 
   
          
-        <ul style={{marginLeft:"40%"}}>
+        <ul style={{marginLeft:"50%"}}>
             
             
 
