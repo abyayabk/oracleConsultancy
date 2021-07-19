@@ -1,18 +1,46 @@
 ul{
+  display: flex;
+  flex-direction: row;
+ 
+}
+
+.left{
     display: flex;
     flex-direction: row;
     
+    padding-right: 550px;
+    
+    
  }
 
+ p{
+   font-family: 'Times New Roman', Times, serif;
+   font-weight: bolder;
+   color: rgb(255, 255, 255);
+   font-size: 25px;
+   margin: 5px;
+ }
+
+.right{
+  display: flex;
+  flex-direction: row;
+  
+ padding-left: 450px;
+ 
+  
+}
 
 
- .logo-image{
-  width: 46px;
-  height: 46px;
-  border-radius: 50%;
-  overflow: hidden;
-  margin-top: -6px;
-  position: absolute;
+
+
+
+
+
+
+img{
+  height: 80px;
+  
+  
 }
 
 
@@ -24,8 +52,8 @@ ul{
       font-size: 25px;
       font-weight: bolder;
       
-      margin-left: 50px;
-      margin-top: 25px;
+      
+      margin: 10px;
       
   }
 
@@ -39,7 +67,7 @@ ul{
     box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.055);
     
     display: block;
-    padding: 25px;
+    padding: 15px;
     border:solid;
     border-width: 5px;
     border-color: rgba(226, 204, 3, 0.822);

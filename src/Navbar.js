@@ -1,6 +1,7 @@
 import React from 'react' ;
 import { Link } from 'react-router-dom';
 import './Navbar.css';
+import logo from './Logo.jpg';
 
 
 
@@ -13,22 +14,27 @@ function Navbar()
     return(
         <>
         <nav>
-     <div class="container">
+     <div>   
+        <ul>
+        <Link to ="/" >
+            <div className="left" >
+            <img src={logo} alt='logo' />
+                <p>ORACLE CONSULTANCY</p>
+                </div>
+                </Link>
 
-  
-         
-        <ul style={{marginLeft:"50%"}}>
+            <div className="right">
+             <Link to ="/" className="text">Home</Link>
+             <Link to ="/Experiences" className="text">Experiences</Link>
+             <Link to ="/ContactUs" className="text">Contact Us</Link> 
             
-            
-
-            <Link to ="/" className="text">Home</Link>
             
                      
-            <Link to ="/Experiences" className="text">Experiences</Link>
+           
             
             
-            <Link to ="/ContactUs" className="text">Contact Us</Link>
-                
+            
+            </div>  
         </ul>
     </div>
     </nav>
