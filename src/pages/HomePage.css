@@ -4,9 +4,9 @@
 }
 
 h1{
-  background-color: rgb(49, 48, 48);
-  color: aliceblue;
-  font-family: 'Bungee Inline', cursive;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  font-family: Helvetica;
   font-size: 30px; 
   width: 800px;
   height: 250px;
@@ -16,22 +16,38 @@ h1{
   
 }
 
-p{
+h1 p{
   margin-top: 50px;
+  color: aliceblue;
 }
 
 .h1variant{
  
   background-size: cover;
-  background-color: rgb(209, 194, 178);
+  background-color: rgb(91, 117, 133);
   color: rgb(0, 0, 0);
-  font-family: 'Bungee Inline', cursive;
+  font-family: Helvetica;
   font-size: 30px; 
   font-weight: bolder;
   width: 800px;
   height: 700px;
   position: absolute;
   padding: 0;
+  text-align: center;
+}
+
+.h1variant1{
+ 
+ 
+  background-color: rgb(91, 117, 133);
+  color: rgb(255, 255, 255);
+  font-family: Helvetica;
+  font-size: 20px; 
+  font-weight: bolder;
+  width: 700px;
+  height: 100%;
+  position: absolute;
+  
   text-align: center;
 }
 
@@ -116,7 +132,7 @@ h5{
   width: 250px;;
   text-align: center;
   color: aliceblue;
-  font-family: Arial;
+  font-family: Helvetica;
   font-size: 10px; 
 }
 
@@ -124,7 +140,7 @@ h5{
   background-size: cover;
   background-color: rgb(49, 48, 48);
   color: aliceblue;
-  font-family: Arial;
+  font-family:Helvetica;
   font-size: 30px; 
   width: 100%;
   height: 100%;
