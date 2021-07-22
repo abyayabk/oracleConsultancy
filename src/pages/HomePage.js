@@ -17,7 +17,7 @@ function HomePage()
                          <div className='container-fluid' >  
                          <Carousel>  
                         <Carousel.Item style={{'height':"700px", width:"100%", marginTop:'10px'}} >  
-                        <h2 style={{position:'absolute', fontSize:'80px', zIndex:"1"}}>welcome to Oracle engineering solutions</h2>  
+                        <h2 style={{position:'absolute', fontSize:'80px', zIndex:"1", marginBottom:""}}>welcome to Oracle engineering solutions</h2>  
                         <h2 style={{position:'absolute', fontSize:'60px', zIndex:"1"}}>
                           <p className="firstSlide">BIM services through consulting in Structural Engineering, Civil engineering, Architecture and </p> 
                           <p className="firstSlide1">Mechanical, Electrical and Plumbing solutions</p>
@@ -30,28 +30,45 @@ function HomePage()
                                  </Carousel.Caption>  
                                  </Carousel.Item  >  
                                  <Carousel.Item style={{'height':"700px", width:"100%", marginTop:'10px'}}>
-                                 <h2 style={{position:'absolute', fontSize:'80px', zIndex:"1"}}>
-                                 <p className="firstSlide1">Interior designs using CAD contact drawings</p>
-                                 <p className="firstSlide1">Our experts can design, manage and work out specifications to fulfil your goals. </p>
-                                   </h2>  
+                                 <h2 style={{position:'absolute', fontSize:'60px', zIndex:"1", marginBottom:""}}>our experts can design, manage and work out specification to fulfill your goal</h2>  
+                        <h2 style={{position:'absolute', fontSize:'60px', zIndex:"1"}}>
+                          <p className="firstSlide">BIM services through consulting in Structural Engineering, Civil engineering, Architecture and </p> 
+                          <p className="firstSlide1">Mechanical, Electrical and Plumbing solutions</p> 
+                          </h2> 
                                  <img style={{'height':"100%", width:"700px",  opacity:"0.6", zIndex:"-1"}}  
                                    className="d-block w-100"  
-                                    src={image3}   alt="img" />  
+                                    src={image5}   alt="img" />  
                                        <Carousel.Caption> 
                                   
                                       </Carousel.Caption>  
                                          </Carousel.Item>  
                                          <Carousel.Item style={{'height':"700px", width:"100%", marginTop:'10px'}}>
-                                         <h2 style={{position:'absolute', fontSize:'80px', zIndex:"1"}}>hello</h2>  
+                                         <h2 style={{position:'absolute', fontSize:'80px', zIndex:"1"}}>our vision</h2>  
                                  <img style={{'height':"100%", width:"700px",  opacity:"0.7", zIndex:"-1"}}  
                                         className="d-block w-100"  
-                                         src={image5}  alt="img" />  
+                                         src={image3}  alt="img" />  
                                         <Carousel.Caption>  
                                            
                                           </Carousel.Caption>  
                                          </Carousel.Item>  
                                         </Carousel>  
                                 </div> 
+
+
+
+
+<div class="containe">
+<div class="intro" style={{width:"100%"}}>
+  <p class="black">Who we are</p>
+  </div>
+  <div class="middle">
+    <div class="texta">Oracle Engineering Solutions, we provide end to end BIM (Building Information Modelling) services through
+     consulting in Structural Engineering, Civil engineering, Architecture & MEP (Mechanical, Electrical and Plumbing) solutions.
+      The typical project engagement runs through system selection studies, CAD contact drawings, working out specifications,
+       preliminary cost estimation feasibility mapping and shop drawing review to host of construction phase services</div>
+  </div>
+</div>
+
 
                                 <div className="colContainer">
 
@@ -74,37 +91,11 @@ function HomePage()
     </div>
 
     
-    <div className='container-fluid2' >  
-                         <Carousel>  
-                        <Carousel.Item style={{'height':"200px", width:"100%", marginTop:'10px', marginBottom: '20px'}} >  
-                       <h7 className="h7" style={{position:'absolute', fontSize:'30px'}}>
-                         <p style={{marginTop: '50px'}}>Who we are</p>
-                         </h7>
-                           <Carousel.Caption >  
-                              
-                                 </Carousel.Caption>  
-                                 </Carousel.Item>  
-                                 <Carousel.Item style={{'height':"200px", width:"100%", marginTop:'10px', marginBottom: '20px'}}>
-                                 <h7 className="h7" style={{position:'absolute', fontSize:'20px'}}>
-                                 <p style={{marginTop: '50px'}}>Oracle Engineering Solutions, we provide end to end BIM (Building Information Modelling) services through consulting in Structural Engineering, Civil engineering, Architecture & MEP (Mechanical, Electrical and Plumbing) solutions. The typical project engagement runs through system selection studies, CAD contact drawings, working out specifications, preliminary cost estimation feasibility mapping and shop drawing review to host of construction phase services.</p>
-                                 </h7>
-                       
-                                       <Carousel.Caption> 
-                                     
-                                      </Carousel.Caption>  
-                                         </Carousel.Item>  
-                                         <Carousel.Item style={{'height':"200px", width:"100%", marginTop:'10px', marginBottom: '20px'}}>
-                                 <h7 className="h7" style={{position:'absolute', fontSize:'20px'}}>
-                                 <p style={{marginTop: '50px'}}>Our vision is to be a leader in the sector of building technology and design services in Nepal through innovation and customer satisfaction.</p>
-                                 </h7>
-                        
-                                        <Carousel.Caption>  
-                                            
-                                          </Carousel.Caption>  
-                                         </Carousel.Item>  
-                                        </Carousel>  
-                                </div>
+    
     </div>
+
+    
+
     </div>
     
 );
