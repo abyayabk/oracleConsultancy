@@ -19,14 +19,14 @@ function Navbar()
         <Link to ="/" >
             <div className="left" >
             <img src={logo} alt='logo' />
-                <p>ORACLE CONSULTANCY</p>
+                <p>Oracle Engineering Solutions</p>
                 </div>
                 </Link>
 
             <div className="right">
-             <Link to ="/" className="text">Home</Link>
-             <Link to ="/Experiences" className="text">Experiences</Link>
-             <Link to ="/ContactUs" className="text">Contact Us</Link> 
+             <Link to ="/" className="text">home</Link>
+             <Link to ="/Experiences" className="text">experiences</Link>
+             <Link to ="/ContactUs" className="text">contact us</Link> 
             
             
                      

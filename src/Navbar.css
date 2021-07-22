@@ -32,21 +32,20 @@ img{
 .text{
   color : rgb(53, 53, 53);
   text-Decoration: none;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Times New Roman', Times, serif;
   font-size: 25px;
-  font-weight: bolder;
+  font-weight: lighter;
   padding: 15px;
   padding-left: 50px;     
   }
 
   nav {
-  
-  background: rgb(255,255,255);
-background: linear-gradient(90deg, rgba(255,255,255,1) 12%, rgba(85,135,187,1) 47%, rgba(255,255,255,1) 83%);
+    background: rgb(255,255,255);
+background: linear-gradient(90deg, rgba(255,255,255,1) 15%, rgba(175,206,255,0.6110819327731092) 47%, rgba(255,255,255,1) 85%);
   box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.055); 
   display: block;
   padding: 15px;
-  border-bottom:solid;
+  
   border-width: 5px;
   border-color: rgba(0, 0, 0, 0.822); 
   width: 100%; 

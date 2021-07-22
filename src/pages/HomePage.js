@@ -17,10 +17,12 @@ function HomePage()
                          <div className='container-fluid' >  
                          <Carousel>  
                         <Carousel.Item style={{'height':"700px", width:"100%", marginTop:'10px'}} >  
-                        <h1 className="h1variant" style={{position:'absolute', marginLeft:'30%', fontSize:'30px'}}>
-                       <p style={{marginTop:"250px"}}>Welcome to oracle consultancy</p>
-                       </h1>
-                         <img style={{'height':"700px", width:"50%"}}  
+                        <h2 style={{position:'absolute', fontSize:'80px', zIndex:"1"}}>welcome to Oracle engineering solutions</h2>  
+                        <h2 style={{position:'absolute', fontSize:'60px', zIndex:"1"}}>
+                          <p className="firstSlide">BIM services through consulting in Structural Engineering, Civil engineering, Architecture and </p> 
+                          <p className="firstSlide1">Mechanical, Electrical and Plumbing solutions</p>
+                          </h2>
+                                 <img style={{'height':"100%", width:"700px",  opacity:"0.6", zIndex:"-1"}}    
                          className="d-block w-100"  
                         src={image4} alt="img" /> 
                            <Carousel.Caption >  
@@ -28,9 +30,11 @@ function HomePage()
                                  </Carousel.Caption>  
                                  </Carousel.Item  >  
                                  <Carousel.Item style={{'height':"700px", width:"100%", marginTop:'10px'}}>
-                                 <h1 className="h1variant1" style={{position:'absolute', fontSize:'30px'}}>
-                        <br></br><br></br>Our expertise on CAD contact drawings helps us bring <br></br>designs you wanted for your projects.</h1>  
-                                 <img style={{'height':"100%", width:"700px"}}  
+                                 <h2 style={{position:'absolute', fontSize:'80px', zIndex:"1"}}>
+                                 <p className="firstSlide1">Interior designs using CAD contact drawings</p>
+                                 <p className="firstSlide1">Our experts can design, manage and work out specifications to fulfil your goals. </p>
+                                   </h2>  
+                                 <img style={{'height':"100%", width:"700px",  opacity:"0.6", zIndex:"-1"}}  
                                    className="d-block w-100"  
                                     src={image3}   alt="img" />  
                                        <Carousel.Caption> 
@@ -38,9 +42,8 @@ function HomePage()
                                       </Carousel.Caption>  
                                          </Carousel.Item>  
                                          <Carousel.Item style={{'height':"700px", width:"100%", marginTop:'10px'}}>
-                                 <h1 style={{position:'absolute', marginTop:'400px', fontSize:'30px'}}>
-                        <br></br><br></br>Our expertise on CAD contact drawings helps us bring <br></br>designs you wanted for your projects.</h1>  
-                                   <img style={{'height':"700px", width:"700px"}}  
+                                         <h2 style={{position:'absolute', fontSize:'80px', zIndex:"1"}}>hello</h2>  
+                                 <img style={{'height':"100%", width:"700px",  opacity:"0.7", zIndex:"-1"}}  
                                         className="d-block w-100"  
                                          src={image5}  alt="img" />  
                                         <Carousel.Caption>  
@@ -113,6 +116,9 @@ function HomePage()
 export default HomePage;
 
 //d-block w-100
+/*<h1 className="h1variant" style={{position:'absolute', marginLeft:'30%', fontSize:'30px'}}>
+                       <p style={{marginTop:"250px"}}>Welcome to oracle consultancy</p>
+                       </h1>*/
 /*class="bg_image"
 style={{
   
