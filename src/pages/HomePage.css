@@ -207,5 +207,7 @@ h3{
   color: rgb(255, 255, 255);
 }
 
-
+.fade-in {
+  transition: opacity 1s ease;
+}
 

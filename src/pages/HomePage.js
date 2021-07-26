@@ -9,6 +9,10 @@ import Carousel from 'react-bootstrap/Carousel'
 
 
 
+
+
+
+
 function HomePage() 
 {
   return (
@@ -62,10 +66,12 @@ function HomePage()
   <p class="black">Who we are</p>
   </div>
   <div class="middle">
-    <div class="texta">Oracle Engineering Solutions, we provide end to end BIM (Building Information Modelling) services through
+  
+    <div class="texta {fadeProp.fade}">Oracle Engineering Solutions, we provide end to end BIM (Building Information Modelling) services through
      consulting in Structural Engineering, Civil engineering, Architecture & MEP (Mechanical, Electrical and Plumbing) solutions.
       The typical project engagement runs through system selection studies, CAD contact drawings, working out specifications,
        preliminary cost estimation feasibility mapping and shop drawing review to host of construction phase services</div>
+      
   </div>
 </div>
 
@@ -77,13 +83,36 @@ function HomePage()
                                 <div className="rowContainer">
 
             <div className="containerHome">
-              <h5 style={{marginTop:"100px", marginLeft:"100px"}}>Building information modelling</h5>
+            <div class="card">
+  <img class="card-img-top" src="..." alt="Carcap"></img>
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    
+  </div>
+</div>
               </div>
+
             <div className="containerHome">
-              <h5 style={{marginTop:"100px", marginLeft:"100px"}}> CAD contact drawings and designs</h5>
+            <div class="card">
+  <img class="card-img-top" src="..." alt="Carcap"></img>
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    
+  </div>
+</div>
               </div>
+
             <div className="containerHome" >
-              <h5 style={{marginTop:"100px", marginLeft:"100px"}}> Site Surveying</h5>
+                      <div class="card">
+  <img class="card-img-top" src="..." alt="Carcap"></img>
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    
+  </div>
+</div>
             </div>                          
                                       
      
